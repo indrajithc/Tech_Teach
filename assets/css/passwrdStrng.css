@@ -1,0 +1,17 @@
+
+.default{background-color:#303641;;}
+.weak{background-color: #FF5353;}
+.strong{background-color: #FAD054;}
+.stronger{background-color: #93C9F4; }
+.strongest{background-color: #B6FF6C;}
+
+
+#complexity, #results {
+    width: 250px;
+    padding: 1px;
+    height: 12px;
+    color: #303641;
+    font-size: 10px;
+    text-align: center;
+    font-weight: 600;
+}

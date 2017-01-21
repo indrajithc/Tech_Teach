@@ -1,0 +1,302 @@
+
+	a {
+		font-family: sans-serif;            
+		color: #7b8b8e;
+		font-weight: 500;
+		margin-right: 5px;
+		font-style: normal;
+	}
+	a:hover {
+		text-shadow: none;
+		color: #576366;
+	}
+	.post-header-button {
+		float: right;
+		margin: 30px 20px -30px 0;
+		border-radius: 4px;
+		cursor: pointer;
+		display: inline-block;
+		position: relative;
+		text-align: center;
+		background: #5fcf80;
+	}
+	.post-header-button a {
+		color: #fff;
+		font-weight: 700;
+	}
+	.post-replay-it {
+		color: #fff;
+		padding: 1px 15px;
+		background: #5fcf80;
+		border-radius: 5px;
+		margin-top: 10px;
+		display: inline-block;
+	}
+	.post-replay-it:hover {
+		color: #Efefef;
+	}
+	.post-header-button:hover, 
+	.post-replay-it:hover {
+		background: #31C35E;
+	}
+	#post-new-post {  
+		font-size: 14px;
+		height: 40px;
+		line-height: 36px;
+		padding: 0 15px;
+	}
+	.post-area-wrapper {
+		display: inline-block;
+		width: 75%;
+		background: #fff;
+		padding: 20px;
+		margin-top: 40px;
+		font: 14px/24px "Gotham Rounded A", "Gotham Rounded B", "Gotham Rounded", "Helvetica Neue", Helvetica, Arial, sans-serif;
+		color: #576366;
+		margin-bottom: 20px;
+		box-shadow: 0 1px 0 rgba(0,0,0,0.05) inset,0 2px 0 rgba(0,0,0,0.1);
+	}
+	.post-wrapper .pull-left, 
+	.post-comment-container .pull-left {
+		float: left;
+		display: inline-block;
+		text-align: -webkit-center;
+		width: 20%;
+		padding-top: 30px;
+	}
+	.post-wrapper .pull-right-post, 
+	.pull-right-comment {
+		display: inline-block;
+		width: 80%;
+	}
+	.post-wrapper .post-avatar {
+		display: block;
+		height: 100px;
+		width: 100px;
+		margin-bottom: 5px;
+	}
+	.post-wrapper .post-avatar img {
+		border-radius: 50%;
+		overflow: hidden;
+	}
+	.post-wrapper .post-user-name a {
+		font-weight: 700;
+		font-size: 16px;
+	}
+	.post-wrapper .post-details, 
+	.post-comment-description {
+		word-wrap: break-word;
+		line-height: 1.5em;    
+		letter-spacing: 0.1px;
+		margin-bottom: 10px;
+		color: #576366;
+	}
+	.post-meta-description {
+		color: #99A5A5;
+		margin-bottom: 20px;
+	}
+	.post-materials {
+		display: table;
+		margin-top: 30px;
+	}
+	.post-material {
+		display: inline-block;
+		height: 130px;
+		padding: 0px 30px;
+		border: 2px dashed #E3E4E8;
+		display: table-cell;
+		vertical-align: middle;
+		text-align: center;
+		overflow: hidden;
+		cursor: pointer;
+		border-radius: 10px;
+	}
+	.post-material a {
+		display: block;
+		margin-bottom: 10px;
+	}
+	.post-material i {
+		font-size: 18px;
+		display: block;
+		margin-bottom: 5px;
+	}
+
+	.comment-heading-box {
+		margin-top: 30px;
+		padding-left: 65px;
+	}
+	.post-comment-wrapper {
+		border-top: 2px solid #efefef;
+	}
+	.post-comment-avatar {   
+		display: block;
+		height: 50px;
+		float: right;
+		width: 50px;
+		background-size: cover !important;
+		border-radius: 50%;
+		margin-right: 40px;
+	}
+	.pull-right-comment {
+		padding-top: 30px;
+	}
+	.post-comment-name {
+		display: inline-block;
+	}
+	.post-comment-name a {
+		font-weight: 700;
+	}
+	.post-comment-meta {
+		display: inline-block;
+		color: #99A5A5;
+	}
+
+
+/*************************************my edit ****************************************/
+
+.pull-left-child {
+			float: left;
+		display: inline-block;
+		text-align: -webkit-center;
+		width: 10%;
+		padding-top: 30px;
+}
+.post-comment-avatar-post {
+			display: block;
+		height: 50px;
+		float: right;
+		width: 50px;
+		background-size: cover !important;
+		border-radius: 50%;
+		margin-right: 20px;
+}
+.jzt_a_border {
+	border-bottom: 1px solid #e5e5e5;	
+	    margin-top: 21px;
+}
+
+.post-user-dpt{
+		font-weight: 700;
+		font-size: 13px;	
+}
+.commentnoshowJu {
+    float: right;
+    padding: 5px;
+    font-size: 12px;
+    color: rgba(87, 99, 102, 0.49);
+}
+.pull-left-child-com {
+			float: left;
+		display: inline-block;
+		text-align: -webkit-center;
+		width: 10%;
+		padding-top: 10px;	
+}
+.addACommentMe_post {
+    position: relative;
+    top: -20px;
+    width: 100%;
+    max-width: 100%;
+    height: 45px;
+    border: none;
+    overflow: hidden;
+    resize: horizontal;
+}
+.whsurmind_post {
+    height: 143px;
+    width: 100%;
+    border: none;
+	max-width:100%;
+	min-width:100%;
+	max-height:143px;
+	min-height:143px;
+	background-color:#FCFCFC;
+	}
+	
+.custMeG_post {
+    top: initial;
+    left: initial;
+}
+
+.fotrButtn_post {
+    display: inline-block;
+    float: right;
+    padding: 9px;
+    margin-left: 40px;
+}
+
+.custButtnFMe_post {
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    background-color: #BBBBBB;
+    color: #FFFFFF;
+    border: #FFFFFF;
+    min-width: 140px;
+}
+.for_ma_mrgn_edit {
+	padding-top:18px !important;
+}
+#progress-bar {background-color: #12CC1A;height:3px;color: #FFFFFF;width:0%;-webkit-transition: width .3s;-moz-transition: width .3s;transition: width .3s;}
+
+#progress-div {    
+	
+    padding: 5px 0px;
+	
+    text-align: center;
+	}
+.clseeditpostdelete {
+    position: absolute;
+    right: 340px;
+	cursor:pointer;	
+}
+.min_height_maf {
+
+    min-height: 200px;	
+}
+
+.shake {
+    -webkit-animation: shake .7s 1;
+    -moz-animation: shake .7s 1;
+    -o-animation: shake .7s 1;
+    animation: shake .7s 1;
+}
+
+/*********************************** video call sectio ******************************************/
+.videocallsomeone {
+    background-color: white;
+    width: 19%;
+    height: 629px;
+    /* float: right; */
+    /* display: inline-block; */
+    position: fixed;
+    top: 71px;
+    padding: 4px;
+    right: 10px;
+    display: none;
+		
+}
+.innrnewalert {
+	padding: 4px;
+    background-color: #0AA699;
+    margin-top: 5px;
+	color:#FFFFFF;
+}
+.innrnewalert img {
+	max-width:100px;
+	max-height:70px;
+	height:auto;
+	width:auto;
+	 width:100px;
+	 height:75px;
+}
+.innrnewalert:hover {
+	background-color:#00BFC8;
+	cursor:pointer;	
+	
+}
+
+
+/*************** end vdcl ***************************/
+
+
+/********************** end **************************************/

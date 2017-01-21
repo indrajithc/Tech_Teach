@@ -1,0 +1,1308 @@
+/* CSS Document
+ my custom doc 
+ *//*
+* 
+* custom teacher 
+*
+*//*********************************************************************************************/
+a{
+	color:#03727C;	
+	font-style:oblique;
+	
+}
+a:hover {
+	text-shadow: 0px 0px 8px rgba(0,248,252,0.53);
+				
+}
+.colorCust {
+	background-color:#E3E4E8;	
+	min-height: 600px;
+	margin: 0 -20px;
+	padding: 0 20px;
+	margin-top:-50px;
+	
+}
+.Icontent {
+
+	
+}
+.postBGcolor {
+	background-color:#FFFFFF;	
+	padding:10px;
+	margin:3px;
+	height:auto;
+	margin-top:9px;
+	margin-left:-10px;
+}
+.postBase {
+	word-wrap: break-word;	
+}
+.addPost {  /*
+	border: 1px solid;
+	border-color: #e5e6e9 #dfe0e4 #d0d1d5; */
+	border-radius: 3px;	
+}
+.addPostHead {
+	text-align:center;
+	padding-bottom:5px;
+	border-bottom: 1px solid #e5e5e5;  	
+}
+.addpostHeadOption { 
+	height: 26px;
+	margin: 0 12px;
+	padding: 4px 0 2px;	
+}
+.addpostHeadOption li {
+	display: inline-block;	
+	width:30%;
+}
+
+.custMe {
+	font-size: 75%;
+	padding-bottom: 4px;
+	display: inline-table;
+	vertical-align: bottom;
+}
+
+.aClassMe {
+	margin-left:5px;
+	margin-right:5px;
+    padding-right: 4px;	
+}
+.custMeInnr {
+	padding-right:5px;	
+}
+.custMeInnr2 {
+	background-position:center;
+	background-color:#FFFFFF;
+	left: 50%;
+	top: 15px;
+	color:#E5E5E5;
+
+}
+.HRvline {
+	padding-top: 6px;
+    padding-bottom: 9px;
+    display: inline-block;
+    border-right: 2px solid #DFDFDF;
+}
+.postContntMe {
+	margin-top:4px;
+	
+	padding:10px;	
+	
+}
+.innrWrp {
+	overflow: hidden;
+	zoom: 1;
+}
+.whsurmind {
+	 height:63px;	
+	 width:100%;
+	 border:none;
+}
+
+.addpotfooter {
+	border-top: 1px solid #e5e5e5; 	
+	
+}
+.postFotterinnr {
+	padding:10px;	
+	width:30%;
+	display:inline-block;	
+}
+.inlineAPF {
+	text-align:center;	
+}
+.inlineAPF :hover {
+	color:#0AA699;
+	background-color:rgba(116,116,116,0.33);
+	box-shadow: 0px 0px 15px 3px rgba(116,116,116,0.33);	
+}
+.fotrButtn {
+	display:inline-block;	
+	float:right;
+	padding:9px;
+	margin-left:15px;
+}
+.shadow:hover {
+	box-shadow: 0px 0px 10px 3px rgba(148,148,148,0.58);
+	cursor:pointer;
+}
+
+.selectionMF {
+	text-decoration:none;
+	max-width:20px;
+}
+.custButtnFMe {
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size:12px;
+	
+	background-color:#BBBBBB;
+	color:#FFFFFF;
+	border:#FFFFFF;
+	max-width:100px;	
+	min-width:100px;	
+}
+.custMeG {
+	top: initial;
+    left: initial;
+	max-width:100px;
+	min-width:100px;	
+}
+.jztAddPadd {
+	padding-right:5px;	
+}
+.innrPrivcy {
+	padding:10px;	
+}
+.viewPostName {
+	
+	top:0;
+	text-align:left;
+	padding-left:20px;
+}
+.viewPostName a {
+	padding-right:6px;
+}
+.viewPostTime {
+	text-align:left;
+	padding-left:20px;
+}
+.dataPost {
+	padding:10px;
+	text-align:left;	
+}
+.dataContent {
+	padding:5px;	
+}
+.datapostconte {
+	font-family:Arial;
+	font-size:15px;
+	font-style:normal;
+	color:#313131;
+
+	text-decoration:none;
+	
+}
+/*****************************connent***********************************/
+.quickClick {
+	color: #9197a3;
+	position: relative;	
+	padding:5px;
+	padding-bottom: 7px;
+}
+.quickClickInnr {
+	margin: 0 12px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	font-size:13px;
+}
+.aCommClassMe {
+	color: #9197a3;
+	margin-left:2px;
+	margin-right:1px;	
+}
+.custFontForLikesoon {
+	font-family: helvetica, arial, sans-serif;
+	font-size:13px;
+	font-style:normal;
+	font-stretch:normal;
+	padding-left:6px;
+	padding-right:6px;
+}
+
+.addComment {
+	background-color:#F6F7F8;	
+}
+.commentinnr {
+	padding:9px;
+	font-size:12px;
+	border-bottom:1px solid #e5e5e5;
+	padding-left:3px; 		
+}
+
+.commentz1 {
+	float:left;	
+	display:inline-block;
+	margin:2px;
+}
+.actualComment {
+	padding-left:5px;
+	width:92%;
+	display:inline-block;
+	
+}
+.StrngMe{
+	padding-right:10px;
+	color:#076FEC;
+}
+.actualContentMe {
+	/*font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-size:12px;
+	font-style:normal; 
+	color:#0D0202;	
+	 font-weight: normal; */
+	 font-family: helvetica, arial, sans-serif;
+	 line-height: 1.34;
+	 font-size: 12px;
+	 color:#1D1C1C;
+}
+
+.custFononly{
+	font-family: 'FamilyName Light', 'FallbackFamily', serif;
+	font-size:15px;
+	font-style:normal; 
+	/*
+	font-weight: normal; 
+	*/
+	color:#3E0F53;
+}
+.colorBlack{
+	color:#120000;	
+}
+.custFononlyName {
+	/*font-family:Verdana, Geneva, sans-serif;
+	font-size:14px;
+	font-weight: normal; 
+	font-style:normal;	*/
+	color: #3b5998;
+    cursor: pointer;
+	word-wrap: break-word;
+	font-family: helvetica, arial, sans-serif;
+	font-weight: bold;
+	
+}
+.connetncontent {
+	 word-break: break-all;
+	 padding:10px;
+}
+
+.non_border_me {
+	border:none;	
+}
+.addACommentMe {
+	position:relative;
+	top:-3px;
+	width: 100%;
+	max-width:100%;
+	height:32px;
+    border: none;	
+	overflow:hidden;
+	resize:horizontal;
+}
+.commentnoshow {
+	float: right;
+    position: absolute;
+    right: 45px;
+    padding: 9px;
+	padding-top:10px;
+    font-family: monospace;
+    font-style: normal;
+    font-size: 12px;
+    color: rgba(87, 99, 102, 0.49);	
+}
+.customAddCmntHr {
+	font-family: monospace;
+    font-style: normal;
+    font-size: 13px;
+    color: rgba(87, 99, 102, 0.49);	
+	color:#007E8E;
+	cursor:pointer;
+	padding:6px;
+	font-weight:100;
+	
+	
+}
+.moreComments div{
+	padding:3px;
+	/*border-bottom: 1px solid #e5e5e5; 	*/	
+}
+
+.top_add_new_item {
+	text-align: right;
+    padding: 10px;
+    padding-right: 0px;	
+}
+
+.my-modal-dialog {
+margin-top:10%;	
+}
+#sub_disc {
+	min-width: 250px;;
+	max-width:100%;	
+}
+
+
+/***************************comment end**************************************/
+
+
+
+.class_for_padding {
+	    margin-top: -18px;
+}
+
+
+
+
+/*********************************************************************************************/
+._2wr{
+    background-image:url(../img/-ctmmw9VsYw.png);
+	background-repeat: no-repeat;
+    background-size: auto;
+    background-position: -182px -392px;
+    height: 7px;
+    left: 50%;
+    width: 11px;	
+}
+
+
+/*******************************************profile***********************************************/
+.photome {
+	width:200px;
+	height:200px;
+	background-color:#B37172;
+}
+.photome img{
+	width:200px;
+	height:200px;
+}
+.cust_class {
+	padding: 20px 0;
+    position: relative;
+    display: -webkit-box;
+		
+}
+.cust_class textarea {
+	width: initial;
+	min-width:59%;
+	max-width:59%;
+	
+}
+.passwrdMr {
+	position:absolute;	
+}
+
+.temptopbk {
+    position: fixed;
+    top: 0;
+    left: 0%;
+    background-color: #252020;
+    min-width: 100%;
+    min-height: 100%;
+    background-color: rgba(0,0,0,0.90);
+	z-index:1002;
+}
+
+.temtop {
+    background-color: #303641;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -10%;
+    margin-left: -213px;
+    width: 525px;
+    height: 325px;
+    padding: 10px;
+    display: inline-block;
+	
+}
+
+.intoiconX {
+	text-align:right;
+	padding:2px;
+}
+.CustClssPlsMyCl {
+    display: flex;
+    /* position: static; */
+    max-height: 75px;
+	
+}
+#repassStat {
+	text-align:center;
+	padding:10px;
+	font-size:14px;	
+}
+
+.myCust {
+	
+}
+
+/********************************************end profilr***********************************************/
+
+
+/*******************************************exam*********************************/
+.custParent {
+	
+}
+.mainBodyHereheada {
+    height: 330px;
+    position: fixed;
+    top: initial;
+    width: 80%;
+}
+.mainBodyHerea {
+position: static;
+    min-width: 100%;
+    max-height: 100%;
+    overflow-y: auto;
+    position: static;
+    overflow-x: hidden;
+    height: 100%;
+}
+.custHrenv {
+	display:inline-block;	
+	padding:5px;
+	padding-left:10px;	
+}
+.jztHeadd {
+	padding-left:10px;	
+}
+
+
+  div.col-sm-9 div {
+      height: 250px;
+      font-size: 28px;
+  }
+  #section1 {color: #fff; background-color: #1E88E5;}
+  #section2 {color: #fff; background-color: #673ab7;}
+  #section3 {color: #fff; background-color: #ff9800;}
+  #section41 {color: #fff; background-color: #00bcd4;}
+  #section42 {color: #fff; background-color: #009688;}
+  
+  @media screen and (max-width: 810px) {
+    #section1, #section2, #section3, #section41, #section42  {
+        margin-left: 150px;
+    }
+  }
+  
+  
+  .showSubXamk div {
+	padding-left:10px;
+	padding-right:9px;  
+	  
+  }
+  .sectionV {
+		min-height: 330px;
+    /* margin-top: -10px; */
+     margin-bottom: 10px; 
+    background-color: rgba(204, 0, 255, 0.03);
+    border-radius: 5px;
+
+  }
+  
+  #custHrenvid  li a{
+	   display: block; 
+		height:38px;
+		margin-left:10px;
+		text-align: center;
+  }
+  .jztadivtest {
+		padding:20px;  
+  }
+
+
+/**********************************************end exam********************************************************/
+
+
+/************************************************add a sub************************************************/
+.assign_one {
+	text-align:center;
+	padding:10px;
+	
+}
+.my_b_b_new_new_edt {
+    width: 97%;
+    background-color: rgba(43, 48, 58, 0.08);
+    margin-left: 14px;	
+	
+}
+.my_row div {
+	display:inline-block;
+}
+.col-nd-3 {
+	
+	
+}
+.my_row div .btn{
+    min-width: 190px;
+    min-height: 37px;
+    margin-top: -3px;
+}
+
+.tempcustClassForDiv {
+	min-width:119%;
+}
+.tempcustClassForDiv .btn-group {
+	width:50%;	
+}
+.hreonlycistcolor{
+	    background-color: #0AA699;
+}
+.saveico {
+	padding-left: 15px;
+    font-size: 25px;
+    color: #0AA699;
+}
+.saveico i {
+	cursor:pointer;
+}
+#custHrenvid {
+	    width: 111%;
+	
+}
+.viesWelect {
+	    height: 53px;
+
+	overflow:hidden;
+	    text-align: center;
+    background-color: #EEEEEF;
+    margin-left: 24px;
+    width: 96%;
+	
+		border-bottom: 1px solid #7B8B8E;  
+}
+
+.viesWelect:hover {
+	    overflow-x: auto;
+    overflow-y: hidden;	
+	
+}
+#custHrenvid li {
+	display:inline-block;	
+	
+}
+.aclasshere {
+	    padding: 20px;
+}
+
+/************************************************end this**********************************************/
+
+/*************************************** add a exam etc ****************************************/
+.examm1 {
+	max-height:400px;
+	overflow:auto;	
+}
+
+.exam_c1 {
+	background-color: #FFFFFF;
+	padding:2px;
+}
+.exam_n9{
+ 	background-color:#FFFFFF;
+	border-bottom: 1px solid #636363;
+}
+.exam_n1 {
+	padding:1px;	
+	
+}
+
+.exam_n9:hover {
+	background-color:#0AA699;
+	color:#FFFFFF;
+	cursor:pointer;
+	
+	
+}
+.hovrtexam {
+	background-color:#0AA699;
+	color:#FFFFFF;
+}
+
+.exam_n9:hover div h4 {
+	color:#FFFFFF;
+	
+    font-weight: bolder;
+	
+	
+}
+
+.exam_m1 {
+    padding-right: 15px;
+    padding-left: 9px;
+    width: 90%;
+    display: inline-block;
+	color:#303641;
+}
+.exam_m2 {
+    width: 10%;
+    display: inline;
+    text-align: right;
+	color:#FFFFFF;
+}
+
+.left {
+    max-width: 100%;
+    float: left;
+}
+.right {
+    text-align: right;
+}
+.exam_b2 {
+    padding: 10px;
+    padding-left: 0px;	
+}
+
+.exam_b2 button {
+	width:22%;
+	height:41px;	
+}
+.seris_x1 {
+	width: 250px;
+}
+.seris_x2 {
+    width: 80%;
+}
+.seris_x3 {
+	
+    display: inline-block;
+    width: 20%;
+    height: 37px;
+	
+}
+.last_deta_b1 {
+	padding:2px;	
+}
+.last_deta_ba1 {
+	padding:2px;	
+}
+.last_deta_ba2 {
+	padding:2px;	
+}
+.markval1 {
+	max-width:200px;
+	border:none;
+}
+.markval2 {
+	width:200px;
+	border:hidden;
+	max-width:200px;
+	overflow:hidden;
+	
+}
+.elemtss {
+	padding:3px;	
+	padding-left:0px;
+	
+}
+.nameLa{
+	padding-left:5px;
+	
+}
+#errmsg
+{
+color: red;
+}
+.buttoSave {
+	width: 200px;
+    padding-bottom: 5px;	
+}
+.photomex {
+	width:200px;
+	text-align:center;	
+}
+.photomex img {
+	width:190px;
+	height:190px;	
+}
+#succmsg {
+	text-align:center;
+	color:#00FF3C;
+	padding-right:10px;	
+	position: absolute;
+    left: 30%;
+    top: -5%;
+}
+.headsub {
+	padding:2px;
+	padding-left: 5px;	
+	padding-bottom:10px;
+}
+.muclassfoehei {
+	padding-top:10px;
+	padding-bottom:10px;	
+}
+
+/**********************************end this**********************************************************/
+/***************profile last edit by mi ***************************/
+
+.editimg {
+    position: absolute;
+    bottom: 0px;
+    left: 6%;
+}
+.editimg i{
+	font-size:40px;
+}
+.modal-body {
+	text-align:center;	
+	
+}
+/*********************end cust my edit*************************/
+
+
+/****************************** strt parnt ************************/
+.heift201 textarea {
+    position: absolute;
+    bottom: 25px;
+    min-width: 90%;
+    max-width: 90%;
+    overflow: auto;
+    border: none;
+    top: 3px;
+    height: 110px;
+    max-height: 110px;
+}
+
+.colsub {
+    position: absolute;
+    top: 15px;
+    right: 15px;	
+}
+
+
+
+/********************* end of parent ************************************/
+
+/*************************** strt of athr m,rk ******************/
+.col-in-b {
+	 background-color:#FFFFFF;
+	 padding:3px;
+	 
+    position: absolute;	
+}
+.col-my-b0 {
+	    padding: 10px;
+    background-color: #303641;
+    margin: 3px;
+	    cursor: pointer;
+		color:#FFFFFF;
+}
+.col-my-0   {
+	overflow:hidden;
+	height:600px;
+		
+}
+.col-my-0:hover {
+	overflow:auto;	
+}
+.col-my-bZ {
+position: absolute;
+    top: 80px;
+    padding: 3px;
+    left: 21px;
+}
+.muclassfoeheik {
+	    margin-top: 30px;
+}
+.col-in-ba {
+	
+}
+.col-in-c {
+	padding:5px;	
+}
+.cust_class_new {
+	padding:10px;	
+	padding-bottom:2px;
+	padding-top:20px;
+}
+.col-in-d {
+	padding:5px;	
+}
+.col-my-da {
+	padding:10px;
+		border: 1px solid #e5e5e5;  	
+		margin:3px;	
+}
+
+/************************** end this mrl****************************************/
+
+/*************************** strt if  libry******************/
+
+.main_body_b {
+	margin-top: -50px;	
+}
+.head_my_erk h3 {
+	display:inline-table;	
+}
+
+.search_bix {
+    display: inline-table;
+    position: absolute;
+    right: 40px;
+    top: 10px;
+}
+.my_cust_body_n {
+	width:98%;
+	padding:6px;
+	background-color:#FFFFF6;
+	height:450px;
+	margin-left:10px;
+	overflow:hidden;
+}
+.innr_dp {
+ 	padding: 5px;
+    background-color: antiquewhite;
+    height: 200px;
+	
+}
+.innr_bdy_tab {
+	width:99%;	
+}
+.my_cust_body_n:hover {
+	overflow:auto;
+	    overflow-x: hidden;
+	
+}
+.padding_bot_top_10 {
+	padding-top:6px;
+	padding-bottom:6px;	
+}
+
+.oru_img {
+ 		
+}
+.innr_dp {
+	padding:9px;
+}
+.innr_dp_hover {
+  
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    font-weight: bold;
+    padding: 3px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+	text-align:center;
+}
+.innr_dp_hover:hover {
+	  background-color: rgba(2,2,2,0.38);
+	  cursor:pointer;
+	  
+}
+.innr_dp_in_textarea {
+    border: none;
+    width: 100%;
+    height: 80px;
+    overflow: hidden;
+    margin: 0px;
+    background-color: transparent;
+    min-width: 100%;
+    max-width: 100%;
+    min-height: auto;
+    max-height: initial;
+    cursor: pointer;
+	  
+}
+.search_bix_rig_t {
+	    display: inline-table;
+    position: absolute;
+    left: 40px;
+    top: 10px;
+}
+
+
+/**************************/
+.stud_add_main_head {
+	border: 1px solid #e5e5e5;
+    padding: 9px;
+    width:100%;
+}
+.row_my {
+	
+}
+.col-my-6 {
+	display:inline-block;
+	width: 49.5%;
+	padding:3px;	
+}
+.col-my-16 {
+	display:inline-block;
+	width:58%;
+	padding:3px;	
+}
+.col-my-26 {
+	display:inline-block;
+	width:38%;
+	padding:3px;	
+}
+.col-my-12 {
+	
+	width:99.9%;
+	
+}
+.rg_brdr {
+	
+	border-right: 1px solid #e5e5e5; 	
+}
+.padii {
+	padding:9px;	
+}
+.select_wisth {
+	
+}
+.padii2 {
+	padding-top:9px;
+	padding-bottom:9px;
+	
+    overflow: auto;	
+	
+}
+.padii3 {
+	padding-top:6px;
+	padding-bottom:6px;
+	
+    overflow: auto;	
+	
+}
+.img_pass {
+	    display: inline-flex;	
+}
+.padd_bord {
+	padding:9px;	
+}
+.stud_add_main_body {
+	padding:9px;	
+}
+.width89 {
+	width:89%;	
+}
+/*************************** end of  ******************/
+
+/******************** cust edit ********************/
+.cust_edit_sty_my_s {
+    position: absolute;
+    background-color: aqua;
+    padding: 3px;
+    border: lightcyan;	
+}
+
+
+.gradientBoxesWithOuterShadows { 
+background-color: white; 
+
+/* outer shadows  (note the rgba is red, green, blue, alpha) */
+-webkit-box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.4); 
+-moz-box-shadow: 0px 1px 6px rgba(23, 69, 88, .5);
+
+/* rounded corners */
+-webkit-border-radius: 12px;
+-moz-border-radius: 7px; 
+border-radius: 7px;
+
+/* gradients */
+background: -webkit-gradient(linear, left top, left bottom, 
+color-stop(0%, white), color-stop(15%, white), color-stop(100%, #D7E9F5)); 
+background: -moz-linear-gradient(top, white 0%, white 55%, #D5E4F3 130%); 
+}
+.hover_edit:hover {
+	border-bottom: 1px solid #0200F9;
+}
+
+/*********************************************/
+
+
+/********************* update ********************/
+.addEditUpDat {
+    float:right;
+		
+	
+}
+
+.divfulEditupshow {
+	position:absolute;
+	    display: block;
+    padding-left: 11px;
+	width:100%;
+	height:100%;
+	z-index:1000;
+	background-color:rgba(0,0,0,0.45);
+}
+.dleteclick {
+	cursor:pointer;
+		
+}
+
+
+/******************** ends *********************/
+
+/********************************* teach cnfrm stud *****************************/
+.dclds76776 {
+	padding:30px;	
+}
+.dclds76776_ {
+	padding: 30px 0px;	
+}
+.click578576573{
+	cursor:pointer;
+}
+/******************************end ****************************/
+
+
+/********************************* gallery *****************************/
+
+.head_div_my {
+	    position: absolute;
+    width: 72%;
+    left: 100px;
+    top: -8px;
+	z-index:1000;
+}
+.ead004873 {
+	
+}
+.my_each_col_md54 {
+text-align: center;
+    padding: 10px;	
+}
+.my_each_col_md54 label {
+    background-color: #7A7D84;
+    width: 100%;
+    height: 39px;
+    padding: 10px;
+    color: white;
+    font-size: larger;
+	cursor:pointer;
+}
+.my_each_col_md54 label:hover {
+	  background-color: #A5A8B0;
+}
+.main_body_gal {
+    border: 1px solid #e5e5e5;
+    width: 100%;
+    height: 100%;
+    padding: 2px;
+}
+.display9865756 {
+	max-width: 100%;
+    max-height: 410px;
+    min-height: 410px;
+	
+}
+display9865756 div {
+	max-width: 100%;
+    max-height: 410px;
+	height:auto;
+	width:auto;
+}
+.review5907834{
+    background-color: beige;
+    width: 100%;
+    height: 155px;
+    margin-top: 2px;
+    overflow: hidden;
+    overflow-y: hidden;	
+    position: static;
+    bottom: 0px;	
+	padding:2px;
+}
+.rewinnr {
+	width:100%;
+}
+.prevorescroll{
+	
+    width: auto;
+    height: auto;
+	
+    max-height: 150px;
+    display: inline-block;
+	background-color:#B98484;
+	text-align:center;
+}
+
+.review5907834:hover{
+	overflow-x:auto;
+    overflow-y: hidden;	
+	
+}
+
+#actual_commnt898557863 .jzt_a_border {
+    width: 600px !important;
+    max-width: 400px;
+    padding-left: 20px;
+}
+#actual_commnt56456456 .jzt_a_border {
+    width: 600px !important;
+    max-width: 400px;
+    padding-left: 20px;
+}
+
+
+#actual_commntdoc .jzt_a_border {
+    width: 600px !important;
+    max-width: 400px;
+    padding-left: 20px;
+}
+
+#actual_commntdwnld .jzt_a_border {
+    width: 600px !important;
+    max-width: 400px;
+    padding-left: 20px;
+}
+
+.inlinefothis {
+	
+    display: inline-block;
+}
+/******************************end ****************************/
+
+/********************** cust display deta ****************/
+.display_deta_ {
+	 
+    padding: 2px;
+    position: absolute;
+    top: 52px;
+	left:76%;
+	    width: 300px;
+	z-index:1001;
+    cursor: -webkit-grab;
+}
+.display_deta_ label {
+	text-align:right;	
+	font-size:13px;
+	cursor: -webkit-grab;
+}
+.display_deta_ div {
+	text-align:left;	
+	font-size:14px;
+	cursor: -webkit-grab;
+}
+.display_deta_ span {
+	padding-right:5px;
+	cursor: -webkit-grab;
+}
+.hold_cut {
+	cursor:-webkit-grabbing !important;	
+}
+.hold_cuf {
+	cursor:-webkit-grab;	
+}
+
+/******************************************************/
+
+/******************* assignmnt edit ***************************/
+.edit_each_assgnt959693 {
+	cursor:pointer;	
+}
+
+/********************************************/
+
+/****************** disaplay notific ****************/
+.noticationsMain {
+	 padding: 2px 80px;
+}
+.divContainrFornueNot {
+	    margin-bottom: 6px;
+		padding:10px;
+}
+.innrainrFornueNot {
+	    background-color: #DFDFDF;
+    padding: 6px;
+    margin-bottom: 9px;
+    border-bottom: 2px solid #DFDFDF;
+}
+.innrainrFornueNot label{
+	
+    font-size: 20px;
+}
+.innrainrFornueNot div p{
+	    font-size: 16px;
+    letter-spacing: 1px;
+    line-height: normal;
+    color: black;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	padding:10px;
+	font-weight:300;
+}
+
+/***********************************/
+
+/****************** report ************************/
+.eachclassHere {
+	border-bottom: 2px solid #DFDFDF;
+    padding: 31px 0px;;
+}
+
+.eachclassHere div {
+	border-right: 2px solid #DFDFDF;
+   
+}
+.glovB545454 {
+	padding:10px 2px;
+	border-bottom: 2px solid #AAA1BB;	
+}
+.myClasDisplayThis {
+	border: 2px solid #9F988F;	
+	
+	padding:6px;	
+}
+.commonemfhjthriut {
+	border: 2px solid #9F988F;	
+	margin-bottom:10px;
+}
+.jcrop-keymgr {
+	display:none;
+	visibility:hidden;	
+}
+.tis0thud0thuis {
+	    padding: 6px;
+    background-color: #0024FF;
+    width: 10%;
+	max-width: 20%;
+    overflow: hidden;
+    text-align: center;
+	color:#FFFFFF;
+	display:inline-block;
+	margin:2px;
+	
+	
+}
+.table-responsive_thisShit {
+	padding:10px 20px;	
+}
+#howToDothis949693 thead tr,#howToDothis949693 tbody tr {
+	padding: 20px 10px;
+	
+	border-bottom: 1px solid #AAA1BB;		
+}
+
+
+
+.dropdown-menu>li>a{
+    font-family: inherit;
+	font-size:inherit;
+	font-style:inherit;
+	font-weight:inherit;	
+	
+}
+
+
+.setThisClasFoStyle {
+        width: 100%;
+    max-height: 200px;
+    overflow-y: auto;
+}
+
+.antpadng {
+	    margin-top: -50px;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+ 
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    border-radius: 10px;
+	
+}
+ 
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
+
+.divscroll { overflow:hidden;height:whatever px; }
+.divscroll:hover { overflow-y:auto; }

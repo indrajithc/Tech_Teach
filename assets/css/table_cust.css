@@ -1,0 +1,88 @@
+table {
+        width: 100%;
+    }
+
+thead, tbody, tr, td, th { display: block; }
+
+tr:after {
+    content: ' ';
+    display: block;
+    visibility: hidden;
+    clear: both;
+}
+
+thead th {
+    height: 40px;
+
+    /*text-align: left;*/
+}
+
+tbody {
+    height: 420px;
+    overflow-y: auto;
+}
+
+thead {
+    /* fallback */
+}
+
+
+tbody td, thead th {
+    width: 50%;
+    float: left;
+}
+
+
+
+#view_table tbody td, #view_table thead th {
+    width: 25%;
+    float: left;
+}
+#view_table tbody {
+    height: 300px;
+}
+
+
+#view_department_table tbody {
+    height: 300px;
+}
+
+#view_table20 tbody td, #view_table20 thead th {
+    width: 20%;
+    float: left;
+}
+
+tbody td textarea {
+        max-width: 100%;
+		border:none;
+}
+#view_table10 tbody td, #view_table10 thead th {
+ width:10%;	
+float: left;	
+}
+
+table .collapse.in {
+    display: table-row !important;
+}
+#view_table10 thead th {
+    background-color: #3E444E;
+}
+#view_table10 tbody td textarea {
+	min-width: 100%;
+	border:none;
+    font-family: inherit;
+    font-size: initial;
+    font-weight: inherit;
+    font-style: inherit;
+}
+
+
+#view_table30 tbody td, #view_table30 thead th {
+ width:33.3%;	
+float: left;	
+}
+
+.view_table20 tbody td, .view_table20 thead th {
+    width: 20%;
+    float: left;
+}
