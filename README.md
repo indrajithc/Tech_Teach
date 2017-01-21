@@ -1,2 +1,2 @@
-# tech_teach
+# Tech_Teach
 simple a web appication 
