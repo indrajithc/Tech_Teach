@@ -24,25 +24,25 @@ try {
 
 <!doctype html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <title>Untitled Document</title>
-        <link rel="stylesheet" href="<?php echo CSS ?>/passwrdStrng.css">
-        <link rel="stylesheet" href="<?php echo CSS ?>/bootstrap.min.css">
-        <link rel="stylesheet" type="text/css" href="<?php echo CSS ?>/datepicker.css">
-        <link rel="stylesheet" href="<?php echo CSS ?>/font-icons/entypo/css/entypo.css">
-        <link rel="stylesheet" href="<?php echo CSS  ?>/select2.min.css">
-        
-        
-        <link rel="stylesheet" href="<?php echo CSS ?>/font-awesome/css/font-awesome.min.css">
-        
-        
-        <?php //-------------------------------------------------//?>
-        
-        <link rel="stylesheet" href="../assets/lobibox/css/lobibox.css">  
-        <link rel="stylesheet" href="../assets/lobibox/css/animate.css">    
-        
-        
+<head>
+	<meta charset="utf-8">
+	<title>Untitled Document</title>
+	<link rel="stylesheet" href="<?php echo CSS ?>/passwrdStrng.css">
+	<link rel="stylesheet" href="<?php echo CSS ?>/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="<?php echo CSS ?>/datepicker.css">
+	<link rel="stylesheet" href="<?php echo CSS ?>/font-icons/entypo/css/entypo.css">
+	<link rel="stylesheet" href="<?php echo CSS  ?>/select2.min.css">
+	
+	
+	<link rel="stylesheet" href="<?php echo CSS ?>/font-awesome/css/font-awesome.min.css">
+	
+	
+	<?php //-------------------------------------------------//?>
+	
+	<link rel="stylesheet" href="../assets/lobibox/css/lobibox.css">  
+	<link rel="stylesheet" href="../assets/lobibox/css/animate.css">    
+	
+	
         <!----------->
         
         
@@ -96,11 +96,11 @@ try {
 						<span class="title">Dashboard</span>
 					</a>
 				</li>
-                
-                <li><a href="q-wall.php">Q Wall</a></li> 
-                <li><a href="Profile.php">Profile</a></li> 
-                <li><a href="updates.php">updates</a></li> 
-                <li><a href="gallery.php">gallery</a></li> 
+				
+				<li><a href="q-wall.php">Q Wall</a></li> 
+				<li><a href="profile.php">Profile</a></li> 
+				<li><a href="updates.php">updates</a></li> 
+				<li><a href="gallery.php">gallery</a></li> 
                <!-- <li><a href="#">subject</a></li> 
              
                 
@@ -115,68 +115,68 @@ try {
 		                        <span><i class="entypo-dot"></i> Add Student</span>
 		                    </a>
 		                </li>
-		              -->  
-				
-			</ul>
-			
+		            -->  
+		            
+		        </ul>
+		        
+		    </div>
+
 		</div>
 
-	</div>
-
-	<div class="main-content">
-				
-		<div class="row">
+		<div class="main-content">
 			
-			<div class="col-md-12 text-center">
-				<h2></h2>
-		    </div>
-		    <div class="col-md-12 border-bottom custMyHead">
-			    <div class="row ">
-				    <div class="col-md-6 text-left clearfix ">
-					    
-						<div class="header-info-wrapper">
-						    <ul>
-							    <li><i class="entypo-user"></i><?php echo $_SESSION['st']; ?></li>
+			<div class="row">
+				
+				<div class="col-md-12 text-center">
+					<h2></h2>
+				</div>
+				<div class="col-md-12 border-bottom custMyHead">
+					<div class="row ">
+						<div class="col-md-6 text-left clearfix ">
+							
+							<div class="header-info-wrapper">
+								<ul>
+									<li><i class="entypo-user"></i><?php echo $_SESSION['st']; ?></li>
 
-						    </ul>
+								</ul>
+							</div>
 						</div>
-				    </div>
-				    <div class="col-md-6 text-right">
-					    <ul>
-                        
-                        
-                            <!------------------------------------------------------>
-                            <?php
-							
-							$query = "SELECT COUNT(*) AS total FROM `alert` WHERE status = 1 ORDER BY `alert`.`date` DESC";
-							$countRc = $a->display($query);
-							$countRc =  $countRc[0];
-							
-							?>
-                            
-                             <li><a href="notifications.php"><span class="glyphicon glyphicon-bell alert_icon_this_inokClks949693" aria-hidden="true" total="<?php echo $countRc['total']; ?>"></span><span class="alert_icon_this_inokClks949693SSSS" style="float:left; padding-left:5px;    font-size: small;  color: red;"></span></a> </li>
-                             
-                             
-                             <!---------------------------------------------->
-                             
-                        
-						<li><a href="logout.php"><i class="entypo-logout"></i>Logout</a></li>
-					    </ul>
-				    </div>
-			    </div>
-		    </div>
-		    
-		    <div class="col-md-12 p-t-40"><!doctype html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <title>Untitled Document</title>
-    </head>
-    <body>
-            <!--ALL NAVIGATON LINKS -->
-            
-          
-          
-        
-    </body>
-</html>
+						<div class="col-md-6 text-right">
+							<ul>
+								
+								
+								<!------------------------------------------------------>
+								<?php
+								
+								$query = "SELECT COUNT(*) AS total FROM `alert` WHERE status = 1 ORDER BY `alert`.`date` DESC";
+								$countRc = $a->display($query);
+								$countRc =  $countRc[0];
+								
+								?>
+								
+								<li><a href="notifications.php"><span class="glyphicon glyphicon-bell alert_icon_this_inokClks949693" aria-hidden="true" total="<?php echo $countRc['total']; ?>"></span><span class="alert_icon_this_inokClks949693SSSS" style="float:left; padding-left:5px;    font-size: small;  color: red;"></span></a> </li>
+								
+								
+								<!---------------------------------------------->
+								
+								
+								<li><a href="logout.php"><i class="entypo-logout"></i>Logout</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-md-12 p-t-40"><!doctype html>
+					<html>
+					<head>
+						<meta charset="utf-8">
+						<title>Untitled Document</title>
+					</head>
+					<body>
+						<!--ALL NAVIGATON LINKS -->
+						
+						
+						
+						
+					</body>
+					</html>

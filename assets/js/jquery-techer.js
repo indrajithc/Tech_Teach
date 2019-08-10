@@ -9,7 +9,7 @@ $(document).ready(function(e) {
 			$("#custHrenvid").width((160*$custwidthc));
 			//console.log((160*$custwidthc));
 			
-			  $('#example1').datepicker({
+			  $('#exam1').datepicker({
                     format: "dd/mm/yyyy"
                 });  
 			
@@ -853,7 +853,7 @@ var TARGET_H = 300;
 	
 	$('#myModal').click();
 	
-	
+	console.log("eeeeeeeeeeeeeeeeee-"+photo_url_);
 	
 	$.ajax({
 		url: '../crop_photo.php',

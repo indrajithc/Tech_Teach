@@ -1358,7 +1358,7 @@ Lobibox.alert('warning', {
 				}
 				
 				
-				
+//////////////////////////////////////////////////////				
 				
 				$submit = $('#add_teacher input[type="submit"]');
 				$submit.attr('disabled','disable');

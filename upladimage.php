@@ -65,7 +65,7 @@ function resizeImage($image,$width,$height,$scale) {
 			break;
     }
 	
-	chmod($image, 0777);
+///	chmod($image, 0777);
 	return $image;
 }
 
